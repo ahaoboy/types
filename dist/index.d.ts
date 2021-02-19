@@ -257,6 +257,7 @@ declare global {
     SAMPLED:           0x04;
     STORAGE:           0x08;
     RENDER_ATTACHMENT: 0x10;
+    OUTPUT_ATTACHMENT: 0x10;
   };
 
   export type GPUMapModeFlags = number;
